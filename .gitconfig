@@ -1,0 +1,10 @@
+[user]
+	name = naru101
+	email = naru101@naver.com
+[credential]
+	helper = manager
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

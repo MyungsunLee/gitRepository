@@ -1,0 +1,16 @@
+
+public class SpecialCarEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.print("이름\t");
+		System.out.print(":\t");
+		System.out.print("이명선\n");
+		System.out.print("게시판 제목 : \'hello everyone\'");
+		
+		
+
+	}
+
+}

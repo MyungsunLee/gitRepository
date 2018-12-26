@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class OperationTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		
+		int x = 0;
+		
+		System.out.println("x값 입력");
+		x = scan.nextInt();
+		
+		Object absx = (x >=0)? (String)"양수" :(String) "음수";
+		
+		System.out.println("결과값은" + absx);
+	}
+
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class OperationTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		
+		int x = 0;     //사용자가 입력안할법한 수 입력
+
+		String str = "";
+		
+		System.out.println("-1, 0, 1중 택 1");
+		x = scan.nextInt();
+		
+		str = (x == 1)? "양수" : (x == -1)? "음수" : "0";
+		System.out.println(x + "일때 결과값은" + str);
+
+//		1이면 양수
+//		-1이면 음수
+//		0이면 0
+//		이라고 출력되는 프로그램
+	}
+
+}

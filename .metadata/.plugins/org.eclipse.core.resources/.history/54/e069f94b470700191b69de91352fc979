@@ -1,0 +1,17 @@
+
+public class OperEx8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double pi = 0.0;
+		double shortPi = 0.0;
+		
+		pi = 3.14592;
+		shortPi = (int)(pi * 1000) / 1000.0;
+		
+		System.out.println(shortPi);
+
+	}
+
+}

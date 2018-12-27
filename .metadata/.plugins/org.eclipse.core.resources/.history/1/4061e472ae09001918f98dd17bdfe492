@@ -1,0 +1,19 @@
+
+public class ArrayEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int[] score = new int[5];
+		
+		score[0] = 1;
+		score[1] = 2;
+		score[2] = 2;
+		score[3] = 3;
+		score[4] = 4;
+		
+		System.out.println(score[3]);
+	}
+
+}

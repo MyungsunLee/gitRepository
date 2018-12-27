@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class FlowEx6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+
+		String str = "";
+		
+		System.out.println("내용을 입력해 주세요");
+		System.out.println("종료를 하시려면 -999를 입력해 주세요");
+		str = scan.nextLine();
+		
+		int n=0;
+		
+		while(n < 1) {
+			System.out.println("안녕하세요");
+			n++;
+			str = scan.nextLine();
+			System.out.println("날씨가 춥네요 감기 조심하시기 바랍니다");
+			n++;
+			
+		}System.out.println("프로그램을 종료합니다");
+		
+		
+		
+}
+}	

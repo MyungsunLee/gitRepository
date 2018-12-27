@@ -1,0 +1,26 @@
+
+public class ArrayEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//배열, 어레이Array []
+		
+		//5개의 int값을 저장할 수 있는 배열을 생성한다
+
+		
+		int n = 0;
+		int m = 0;
+		int o = 0;
+		int p = 0;
+		int q = 0;
+		
+		n = m = o = p = q = 1;
+		System.out.println(n);
+		System.out.println(m);
+		System.out.println(o);
+		System.out.println(p);
+		System.out.println(q);
+
+
+}}

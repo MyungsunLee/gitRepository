@@ -1,0 +1,46 @@
+
+public class ArrayEx9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// 공 번호 45개 저장공간
+		int[] ballArr = new int[45];
+		// 1~45값 저장ㅇ
+		for (int i = 0; i < ballArr.length; i++) {
+			ballArr[i] = i+1;
+		}
+//		45개 공 확인. 출력 후 5배수마다 엔터입력
+//		for (int i = 0; i < ballArr.length; i++) {
+//			System.out.print(ballArr[i] + " ");
+//			if((i + 1)%5 == 0) {				//i+1이어야 올바른 숫자. i는 공간이라 실제 로또값-1임
+//				System.out.println();
+//			}
+//		}
+		
+		int tmp = 0;
+		int rndNum = 0;
+		for (int i = 0; i < 6; i++) {
+			rndNum = (int)(Math.random()*45);
+			tmp = ballArr[i];
+			ballArr[i] = ballArr[rndNum];
+			ballArr[rndNum] = tmp;
+		}
+		System.out.println("자동선택번호");
+		System.out.println("============");
+		for (int i = 0; i < ballArr.length; i++) {
+			System.out.print(ballArr[i] + " ");
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+
+}

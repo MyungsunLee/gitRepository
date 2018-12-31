@@ -1,0 +1,21 @@
+
+public class ArrayEx12Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[][] scoreArr = new int[4][3];
+
+		int cnt = 1;
+
+		System.out.println(scoreArr[0].length);	
+		
+		for (int i = 0; i < 5; i++) {
+			for (int n = 0; n < scoreArr[0].length; n++) {
+				scoreArr[i][n] = cnt++;
+			}
+		}
+
+	}
+
+}

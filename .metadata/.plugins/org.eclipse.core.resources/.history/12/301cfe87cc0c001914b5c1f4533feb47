@@ -1,0 +1,27 @@
+
+public class TVTest {
+
+	public static void main(String[] args) {
+//		기능 - 표현식
+//		클래스명 변수명;				클래스의 객체를 참조하기 위한 참조변수를 선언
+//		클래스변수명 = new 클래스명();	클래스의 객체를 생성 후, 객체의 주소를 참조변수에 저장
+		// 클래스파일명이 TV라서 이것만 쓸 수 있음
+
+		TV t;
+		t = new TV();
+
+		t.channel = 0;
+
+		System.out.println("channel " + t.channel);
+		t.channel = 7;
+		System.out.println("channel " + t.channel + " 으로 변경되었습니다");
+		t.channel = 14;
+		System.out.println("channel " + t.channel + " 으로 변경되었습니다");
+		
+		t.color = "청색";
+		
+		System.out.println(t.color);
+		System.out.println(t.power);
+	}
+
+}

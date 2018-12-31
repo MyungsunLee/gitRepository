@@ -1,0 +1,16 @@
+
+public class HumanTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Human human;
+		human.age = 32;
+		human.name = "¹Ú¼º¿í";
+				
+		System.out.println(human.age);
+		System.out.println(human.name);
+	}
+
+}

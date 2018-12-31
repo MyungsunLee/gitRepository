@@ -1,0 +1,21 @@
+
+public class MoonGravityEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double weight = 0;
+		
+//		달에서의 중력은 1/6
+//		자신의 몸무게를 구하는 공식weight / 6
+		
+		double moonWeight = 0;
+		weight = 70;
+		moonWeight = (int)(((weight/6)*10)+0.5)/10.0;
+		
+		System.out.println("지구에서의 무게가 " + weight + "kg 일 때,");
+		System.out.println("달에서의 몸무게는 " + moonWeight + "kg");
+		
+	}
+
+}

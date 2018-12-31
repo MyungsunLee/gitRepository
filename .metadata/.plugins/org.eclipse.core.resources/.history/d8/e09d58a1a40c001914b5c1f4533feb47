@@ -1,0 +1,51 @@
+
+public class Sort3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] scoreArr = new int[5];
+
+		scoreArr[0] = 15;
+		scoreArr[1] = 11;
+		scoreArr[2] = 1;
+		scoreArr[3] = 3;
+		scoreArr[4] = 8;
+
+		System.out.println("오름차순으로 정렬");
+
+		int tmp = 0;
+		boolean check = false;
+		int cnt = 0;
+		for (int i = 0; i < scoreArr.length - 1; i++) { // -1을 한 이유 : 4번 정렬하면 마지막 하나는 자동으로 정렬됨
+//			System.out.println(scoreArr[i]);
+			check = false;
+			for (int n = 0; n < scoreArr.length - 1 - i; n++) { // i-1 : 뒷부분(i뒤)는 이미 정렬이 되있기때문에 제외시키는 것
+				if (scoreArr[n] > scoreArr[n + 1]) {
+					tmp = scoreArr[n];
+					scoreArr[n] = scoreArr[n + 1];
+					scoreArr[n + 1] = tmp; // 정보처리기사 문제예시중1
+					check = true;
+				}
+				
+			}
+			// 느낌표는 부정? 같은 의미로는 (check == true)
+			if (!check) {
+				break;
+				cnt++;
+			}
+		}
+
+		for (int i = 0; i < scoreArr.length; i++) {
+			System.out.print(scoreArr[i] + " ");
+		}
+			System.out.println(cnt);
+	}
+}
+//for (int m = 0; m < scoreArr.length; m++) {
+//if (scoreArr[m]<scoreArr[m+1]) {
+//	tmp = scoreArr[m];
+//	scoreArr[m] = scoreArr[m+1];
+//	scoreArr[m+1] = tmp;
+//}
+//}

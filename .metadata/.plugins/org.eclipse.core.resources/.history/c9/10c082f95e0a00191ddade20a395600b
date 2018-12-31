@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class CarculaterSwitch2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int num1 = 0;
+		int num2 = 0;
+		int i = 0;
+		
+		System.out.println("첫번째 숫자를 입력하세요");
+		num1 = scan.nextInt();
+		
+		System.out.println("두번째 숫자를 입력하세요");
+		num2 = scan.nextInt();
+		while (i >3 ){
+			System.out.println(num1 + "+" + num2 + "=" + num1 + num2);
+			i++;
+		}
+	}
+
+}

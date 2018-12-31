@@ -1,0 +1,26 @@
+
+public class ArrayEx4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int[]numArr  = new int[5];
+		int[]backUpNumArr = new int[5];
+		
+		int num = 0;
+		int backNumArr = 0;
+		
+		System.out.println("원본 데이터 : " + num);
+		System.out.println("백업 데이터 : " + backNumArr);
+		
+		System.out.println("원본 데이터 : " + numArr[0]);
+		System.out.println("백업 데이터 : " + backNumArr[0]);
+		
+		
+		
+		
+		}
+		
+
+}

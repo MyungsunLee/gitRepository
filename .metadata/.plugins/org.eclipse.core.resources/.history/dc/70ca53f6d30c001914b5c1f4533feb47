@@ -1,0 +1,20 @@
+
+public class PreTime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int hour = 0;
+		int minute = 0;
+		double second = 0;
+		
+		hour = 5;
+		minute = 8;
+		second = 21;
+		
+		System.out.println("Ω√" + hour + " ∫– " + minute + " √ " + second);
+		
+	}
+
+}

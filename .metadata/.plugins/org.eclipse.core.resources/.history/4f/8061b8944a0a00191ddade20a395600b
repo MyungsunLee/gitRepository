@@ -1,0 +1,21 @@
+
+public class OneToOneHundred {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num = 0;
+		num = 1;
+		int addnum = 0;
+		addnum = num + 1;
+		
+		while (num <= 10) {
+			System.out.println(num  + " + " + addnum + (num + addnum));
+			addnum++;
+		}
+		
+		
+		
+	}
+
+}

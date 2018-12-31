@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class randomPresent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Math.random
+
+		Scanner scan = new Scanner(System.in);
+		int num = 0;
+		int priceNum = (int)Math.random();
+		
+		System.out.println("경품 추첨을 시작합니다!");
+		System.out.println("1에서 3까지 중 숫자를 선택해 주세요");
+		num = scan.nextInt();
+		
+			
+			
+
+
+		}
+		
+		
+		
+	}
+
+

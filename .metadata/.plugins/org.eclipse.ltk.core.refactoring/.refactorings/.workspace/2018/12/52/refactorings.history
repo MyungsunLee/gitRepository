@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;eclipse-workspace&apos;" deleteContents="false" description="Delete resource &apos;eclipse-workspace&apos;" element1="/eclipse-workspace" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1545801102122"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;eclipse-workspace&apos;" deleteContents="false" description="Delete resource &apos;eclipse-workspace&apos;" element1="/eclipse-workspace" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1545801102122"/>&#x0A;<refactoring comment="Rename resource &apos;Carculater&apos; to &apos;Homework1Carculater&apos;" description="Rename resource &apos;Carculater&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Carculater" name="Homework1Carculater" stamp="1545958840334" updateReferences="true"/>
 </session>

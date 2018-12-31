@@ -21,6 +21,8 @@ public class SwitchFlowEx1Test21 {
 //		}
 //		
 //		개인연습
+		
+		System.out.println(2%1);
 	}
 
 }
